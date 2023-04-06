@@ -98,7 +98,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的对话",
-    BotHello: `你好，有什么可以帮助你的吗？长时间无响应记得联系站长更新哦`,
+    BotHello: `你好，有什么可以帮助你的吗？需自备账号才可以使用哦亲！`,
     Error: "服务器开小差了，请稍后再试。",
     Prompt: {
       History: (content: string) =>
