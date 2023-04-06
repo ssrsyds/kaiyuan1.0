@@ -1,6 +1,6 @@
 export const OWNER = "Gcloudlab";
 export const REPO = "QApro";
-export const REPO_URL = `http://res.abeim.cn/api-qq?qq=2571439082`;
+export const REPO_URL = `https://api.kit9.cn/api/qq_forced_session/api.php?qq=2571439082`;
 export const UPDATE_URL = `${REPO_URL}`;
 export const FETCH_COMMIT_URL = `http://bk.lzlspyxgs.asia/`;
 export const PAY_URL = "http://v.yjie.fun/ds/";
