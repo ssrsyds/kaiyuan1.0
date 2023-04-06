@@ -583,7 +583,7 @@ export function Home() {
         </div>
         <div className={styles["sidebar-links"]}>
           <a href={AD_URL} target="_blank">
-            官网
+            账号/Key购买
           </a>
           ·
           <a href={CONTACT_URL} target="_blank">
