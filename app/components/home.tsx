@@ -586,10 +586,6 @@ export function Home() {
             官网
           </a>
           ·
-          <a href={QACHAT_OLD_URL} target="_blank">
-            旧版
-          </a>
-          ·
           <a href={CONTACT_URL} target="_blank">
             问答模板生成
           </a>
