@@ -526,7 +526,7 @@ export function Home() {
         }>
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>
-            ChatGPT <span className={styles["sidebar-title-pro"]}>4</span>
+            ChatGPT <span className={styles["sidebar-title-pro"]}>百晓生</span>
           </div>
           <div className={styles["sidebar-logo"]}>
             <BotIcon />
