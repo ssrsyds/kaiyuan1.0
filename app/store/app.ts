@@ -56,10 +56,26 @@ const ENABLE_GPT4 = true;
 export const ALL_MODELS = [
   {
     name: "gpt-4",
-    available: true,
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-0314",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-32k",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-32k-0314",
+    available: ENABLE_GPT4,
   },
   {
     name: "gpt-3.5-turbo",
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-0301",
     available: true,
   },
 ];
@@ -116,7 +132,7 @@ const DEFAULT_CONFIG: ChatConfig = {
   previewInput: false,
 
   modelConfig: {
-    model: "gpt-4",
+    model: "gpt-3.5-turbo",
     temperature: 1,
     max_tokens: 3096,
     presence_penalty: 0,
