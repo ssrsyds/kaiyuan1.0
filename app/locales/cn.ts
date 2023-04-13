@@ -74,9 +74,9 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     AccessCode: {
-      Title: "访问授权码",
-      SubTitle: "现在是受控访问状态",
-      Placeholder: "请输入访问码授权码",
+      Title: "授权码",
+      SubTitle: "现在是受控使用状态",
+      Placeholder: "请输入授权码",
     },
     Model: "模型 (model)",
     Temperature: {
@@ -85,7 +85,7 @@ const cn = {
     },
     ApiKey: {
       Title: "OpenAI Api 密钥",
-      SubTitle: "用户私有 OpenAI Api 密钥 (仅本地存储，无任何上传)",
+      SubTitle: "OpenAI Api 密钥，自行输入可能会导致响应缓慢",
     },
     MaxTokens: {
       Title: "单次回复限制 (max_tokens)",
@@ -98,7 +98,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的对话",
-    BotHello: `你好，有什么可以帮助你的吗？需自备账号才可以使用哦亲！`,
+    BotHello: `你好，有什么可以帮助你的吗？本程序为ChatGPT-4.0模型，响应速度更快哦~`,
     Error: "服务器开小差了，请稍后再试。",
     Prompt: {
       History: (content: string) =>
