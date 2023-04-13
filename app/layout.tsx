@@ -4,10 +4,10 @@ import "./styles/markdown.scss";
 import "./styles/prism.scss";
 
 export const metadata = {
-  title: "ChatGPT Pro",
+  title: "Ai 百晓生",
   description: "Your personal ChatGPT Chat Bot.",
   appleWebApp: {
-    title: "ChatGPT Pro",
+    title: "Ai 百晓生",
     statusBarStyle: "black-translucent",
   },
   themeColor: "#fafafa",
