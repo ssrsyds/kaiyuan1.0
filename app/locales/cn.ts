@@ -66,7 +66,6 @@ const cn = {
     FullScreen: "全屏",
     previewInput: "输入消息预览",
     HistoryCount: {
-      Model: "模型 (model)",
       Title: "附带历史消息数",
       SubTitle: "每次请求携带的历史消息数",
     },
@@ -79,6 +78,7 @@ const cn = {
       SubTitle: "现在是受控访问状态",
       Placeholder: "请输入访问码授权码",
     },
+    Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
       SubTitle: "值越大，回复越随机",
