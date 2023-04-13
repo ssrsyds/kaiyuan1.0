@@ -78,7 +78,6 @@ const cn = {
       SubTitle: "现在是受控访问状态",
       Placeholder: "请输入访问码授权码",
     },
-    Model: "模型 (model)",
     Temperature: {
       Title: "随机性 (temperature)",
       SubTitle: "值越大，回复越随机",
