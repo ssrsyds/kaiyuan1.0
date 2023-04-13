@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "授权失败，请打开设置面板并填写授权码。",
+      "授权状态:设备未授权，请授权设备后使用哦。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -68,6 +68,10 @@ const cn = {
     HistoryCount: {
       Title: "附带历史消息数",
       SubTitle: "每次请求携带的历史消息数",
+    },
+    ApiKey: {
+      Title: "OpenAI Api 密钥",
+      SubTitle: "OpenAI Api 密钥，自行输入可能会导致响应缓慢",
     },
     CompressThreshold: {
       Title: "历史消息长度压缩阈值",
