@@ -83,10 +83,6 @@ const cn = {
       Title: "随机性 (temperature)",
       SubTitle: "值越大，回复越随机",
     },
-    ApiKey: {
-      Title: "OpenAI Api 密钥",
-      SubTitle: "OpenAI Api 密钥，自行输入可能会导致响应缓慢",
-    },
     MaxTokens: {
       Title: "单次回复限制 (max_tokens)",
       SubTitle: "单次交互所用的最大 Token 数",
